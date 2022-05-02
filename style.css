@@ -1,0 +1,297 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 100px;
+    margin: 20px;
+}
+#crtcnt{
+    height: 340px;
+    overflow: scroll;
+    border: solid 1px #b204b2;
+}
+.Header, .cb-Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #b204b2;
+    width: 100%;
+}
+.Header{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.Heading {
+    font-size: 26px;
+    
+    font-weight: 700;
+    color: white;
+    padding-left: 10px;
+}
+.Action, .cb-Action {
+    font-size: 14px;
+    
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f44336;
+    margin: 0;
+}
+.Action{
+    border: 1px solid #E44C4C;
+    border-top-right-radius: 10px;
+}
+.fa-clock-o {
+    color: #E44C4C;
+    font-size: 16px;
+}
+.Action button,.cb-Action button{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    border: none;
+    background: transparent;
+}
+.subtitle {
+    position: relative;
+    top: 15px;
+    line-height: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #909090;
+}
+.amount {
+    font-size: 20px;
+    
+    font-weight: 800;
+    color: #202020;
+}
+.form-control{
+    position: relative;
+    left: -60px;
+    border: solid 1px orange !important;
+    bottom: 5px;
+}
+.Cart-Items {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: solid 1px #cfcfcf;
+    background: beige;
+    padding: 15px;
+    border-radius: 8px;
+}
+.title {
+    line-height: 15px;
+    font-size: 14px;
+    
+    font-weight: 800;
+    color: #202020;
+    width: 250px;
+}
+.ux {
+    color: white;
+    text-decoration: none;
+    padding: 6px 20px;
+    position: relative;
+    left: -135%;
+    top: 33px;
+    border-radius: 5px;
+    border: solid 1px #E44C4C;
+}
+.fa-trash {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ff9c9c;
+}
+.rmv{
+    color: #ff9c9c;
+    font-size: 12px;
+    position: relative;
+    top: 8px;
+    padding: 5px;
+    box-shadow: 0px 0px 2px 1px #ff9c9c;
+    border: none;
+    background: transparent;
+}
+.save {
+    font-size: 14px;
+    
+    font-weight: bolder;
+    color: #005faa;
+    cursor: pointer;
+}
+.about {
+    height: 100%;
+    width: 44%;
+    text-align: left;
+    margin-top: 8px;
+}
+.Subtotal {
+    font-size: 22px;
+    font-weight: 700;
+    color: #202020;
+}
+.total-amount {
+    font-size: 26px !important;
+    font-weight: 900;
+    color: #202020;
+}
+.total-amount i {
+    font-size: 26px !important;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#btnchk{
+    background: linear-gradient(to bottom right, #b204b2, #800080);
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    border-radius: 0px;
+    padding: 12px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #fbfbfb;
+    padding: 5px 21px;
+    height: 50px;
+    border: none;
+}
+.dvstv,.dvsfh{
+    font-size: 12px;
+    color: #b204b2;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.final{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.items {
+    font-size: 16px;
+    font-weight: 500;
+    color: #909090;
+    line-height: 10px;
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    #total{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+  }
+
+/*date and time slot booking page*/
+
+
+.close {
+    color: #aaaaaa;
+    float: right !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+.code-img{
+    filter: grayscale(100%);
+}
+select {
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #b204b2;
+    background-image: none;
+    cursor: pointer;
+    width: 80%;
+    margin: 10px 0px !important;
+}
+.button {
+    background: linear-gradient(to bottom right, #b204b2, #800080);
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    border-radius: 0px;
+    padding: 12px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 21px;
+    height: 50px;
+    border: none;
+}
+
+/*confirm booking page*/
+
+.total1{  
+    color: #202020 !important;
+    font-weight:bold; 
+}
+.ttlamt{  
+    color: #202020 !important;
+    font-weight:bold;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.checkout{
+    margin-bottom: 60px;
+}
+.ao{
+    border: 3px dashed green;
+    padding: 5px;
+    max-width: fit-content;
+    position: absolute;
+    background: beige;
+    font-size: 10px;
+    font-weight: 800;
+    color: green;
+    bottom: 56px;
+    left: -3px;
+}
+.offerdiv{
+    margin-top: 25px;
+    border: 3px dashed green;
+    padding: 5px;
+    position: relative;
+}
+.bill {
+    background: beige;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cdetail{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0px;
+}
+.custdetail{
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.search-location{
+    width: 100%;
+    margin: 8px 0px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City serv company</title>
+    <script src="https://kit.fontawesome.com/30fb3c5d3c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="bg-image"></div>
+    <section class="container">
+        <img class="logo" src="cc.png" alt="logo">
+        <div class="cb-Header">
+            <h3 class="Heading">Confirm Booking</h3>
+            <h5 class="cb-Action"><button type="button" class="del">✖</button></h5>
+        </div>
+   <h6 style="text-align: left; margin: 10px;">Bill Details</h6>
+  <div class="bill">
+    <div class="final">
+        <label style="font-size:12px;">Total Amount to be Paid  :  </label>
+        <span class="ttlamt">₹&nbsp<span class="ltrpay" style="font-size:20px;">696.00</span></span>
+    </div>
+     <div class="offerdiv">
+         <div class="ao">Apply Offer</div>
+        <div class="final">
+            <label style="font-size:12px;">e-Wallet Balance :  </label>
+            <span class="ttlamt">₹&nbsp<span class="ltrpay">50.00</span></span>
+        </div>
+        <div class="final">
+            <label style="font-size:12px;">Get Coupon  :  </label>
+            <span class="ttlamt">₹&nbsp<span class="ltrpay">96.00</span></span>
+        </div>
+     </div>
+    <div class="final">
+        <label style="font-size:12px;">Total :  </label>
+        <span class="ttlamt">₹&nbsp<span class="ltrpay">696.00</span></span>
+    </div>
+    <div class="final">
+        <label style="font-size:12px;">Discount  :  </label>
+        <span class="ttlamt">- &nbsp; ₹&nbsp<span class="ltrpay">96.00</span></span>
+    </div>
+    <div class="dvstv">
+        <label style="font-size:12px;">Visiting charges  :  </label>
+        <label class="">+ &nbsp;<i class="fa fa-rupee" style="font-size:12px;"></i><abbr class="abbvs">&nbsp; 00.00</abbr> </label>
+    </div>
+    <div class="dvsfh">
+        <label style="font-size:12px;">Safety &amp; Hygiene  :  </label>
+        <label >+ &nbsp;<i class="fa fa-rupee" style="font-size:12px;"></i>&nbsp; 39.00</label>
+  </div>
+  <hr>
+  <div class="total">
+    <div>
+        <div class="Subtotal">Grand Total</div>
+        <div class="items"><abbr class="spntot">5</abbr> items</div>
+    </div>
+    <div class="total-amount"><i class="fa fa-rupee" style="font-size:12px;"></i>&nbsp;<abbr class="totss">1336.00</abbr></div>
+</div>
+  </div>
+
+  <div class="custdetail">
+    <div class="cdetail">
+        <label>Full Name</label>
+        <input type="text" id="txtml">
+    </div>
+    <div class="cdetail">
+        <label>Contact Number</label>
+        <input type="text" id="txtphn">
+    </div>
+    <div class="cdetail">
+        <button type="button" onclick="getLocation();" id="mybtn" class="btntap btn btn-secondary">Tap Your Location</button>
+        <input type="text" id="txtlnd" name="ship-address" required="" autocomplete="off">
+    </div>
+    <label>OR</label>
+    <input type="text" id="txtphn" placeholder="Search your location" class="search-location">
+    <div class="cdetail">
+        <input type="text" id="txtphn" placeholder="Plot No.">
+        <input type="text" id="txtphn" placeholder="Area PIN" required>
+    </div>
+  </div>
+    
+
+    </section>
+        <button class="button" type="button" id="btnchk">Proceed</button></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
